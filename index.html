@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ātma-Diary | Daily Reflections</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>अन्तर्मुखम्</h1>
+<p class="subtitle">आत्मनि प्रवृत्तिः</p>
+<p class="subtitle english">Turning towards the Self</p>
+</header>
+
+<main>
+    <section class="editor">
+        <input type="text" id="title" placeholder="Title of today's reflection…">
+        <textarea id="content" placeholder="Write your thoughts here…"></textarea>
+        <button onclick="saveEntry()">Save Entry</button>
+    </section>
+
+    <section class="entries">
+        <h2>Past Reflections</h2>
+        <div id="entriesList"></div>
+    </section>
+</main>
+
+<footer>
+    <p>“Ātmanā veditavyam” — Know thyself</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

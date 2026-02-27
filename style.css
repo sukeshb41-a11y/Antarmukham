@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    background: #f4efe6;
+    color: #2b2b2b;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #3b2f2f;
+    color: #f7e7c6;
+}
+
+header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+.editor input,
+.editor textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 1px solid #b89b5e;
+    background: #fffdf7;
+    font-family: 'Merriweather', serif;
+}
+
+.editor textarea {
+    min-height: 250px;
+    resize: vertical;
+}
+
+button {
+    background: #6b4e2e;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4a351f;
+}
+
+.entries {
+    margin-top: 50px;
+}
+
+.entries h2 {
+    border-bottom: 2px solid #6b4e2e;
+    padding-bottom: 10px;
+}
+
+.entry {
+    background: #fffaf0;
+    padding: 15px;
+    margin-top: 15px;
+    border-left: 5px solid #6b4e2e;
+}
+
+.entry h3 {
+    margin: 0;
+}
+
+.entry small {
+    color: #777;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #3b2f2f;
+    color: #f7e7c6;
+    margin-top: 50px;
+}
+.gita-quote {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    max-width: 300px;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.35);
+    font-family: 'Cinzel', serif;
+    pointer-events: none;
+}
